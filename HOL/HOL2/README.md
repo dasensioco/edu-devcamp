@@ -134,7 +134,11 @@ To see the demo data you created in [HOL 0](./../HOL0) you have to use Teams as 
 
     ![image](./media/2018-08-29-13-20-00.jpg)
 
-1. Return to the list of active users and repeat the process for one of Bill's students in the `Technology - Programming 2` class: `Jane Doe`. Make sure Jane's `Product license` is set to `Education - Student` to be able to log in.
+1. Return to the list of active users and repeat the process for one of Bill's students in the `Technology - Programming 2` class: `Jane Doe`.
+
+1. On the menu on the left click `Settings` > `Services & add-ins`. Select `Microsoft Teams` from the list. Under `Settings by user/license type` select `Education - Student` and check `Turn Microsoft Teams on or off for all users of this type`. Click `Save`. All students are now allowed to use Teams.
+
+    ![image](./media/2018-12-03-16-08-00.jpg)
 
 1. Start the Teams client. Click the initials of the logged in user in the upper right corner and select `Sign out`.
 

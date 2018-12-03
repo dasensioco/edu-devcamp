@@ -73,7 +73,7 @@ Microsoft PowerApps are a very fast way to create apps based on your data. The s
 
     ![image](./media/2018-09-14-12-24-00.jpg)
 
-1. Change the formula to `ThisItem.Day&" - "&Left(ThisItem.Time,5)` and note how the text on all tiles changes to include not only the day but also the time of the class. Select the `Body` text next. The current formula is `ThisItem.DayOfWeek`. This is a numeric value that we included in the sample data to sort the classes but it is not a value you want to display to the user of the app.
+1. Change the formula to `ThisItem.Day&" - "&Left(ThisItem.Time,5)` and note how the text on all tiles changes to include not only the day but also the time of the class. Please be aware that depending on your regional settings and browser your formulas might use `;` instead of `,` as delimiters. If this is the case change the formula to `ThisItem.Day&" - "&Left(ThisItem.Time;5)`. Select the `Body` text next. The current formula is `ThisItem.DayOfWeek`. This is a numeric value that we included in the sample data to sort the classes but it is not a value you want to display to the user of the app.
 
     ![image](./media/2018-09-14-12-30-00.jpg)
 
@@ -85,7 +85,7 @@ Microsoft PowerApps are a very fast way to create apps based on your data. The s
 
     ![image](./media/2018-09-14-12-44-00.jpg)
 
-1. Next you are going to change the sort order of the tiles. By default they have been sorted by the class name. You are going to change that order to day and time. Select the `BrowseGallery` and change the formula to `SortByColumns(Search(Schedule, TextSearchBox1.Text, "Class","Teacher","Day"), "DayOfWeek", If(SortDescending1, Descending, Ascending), "Time", If(SortDescending1, Descending, Ascending))` and note how the Monday classes are now at the top of the list. By changing the formula you also changed the columns that will be searched when the user types something in the search field above the schedule. Now the columns `Class`, `Teacher` and `Day` will be considered. So the user could type search terms like `Science`, `John` or `Friday` to filter the list.
+1. Next you are going to change the sort order of the tiles. By default they have been sorted by the class name. You are going to change that order to day and time. Select the `BrowseGallery` and change the formula to `SortByColumns(Search(Schedule, TextSearchBox1.Text, "Class","Teacher","Day"), "DayOfWeek", If(SortDescending1, Descending, Ascending), "Time", If(SortDescending1, Descending, Ascending))` (or `SortByColumns(Search(Schedule; TextSearchBox1.Text; "Class";"Teacher";"Day"); "DayOfWeek"; If(SortDescending1; Descending; Ascending); "Time"; If(SortDescending1; Descending; Ascending))` (see above)) and note how the Monday classes are now at the top of the list. By changing the formula you also changed the columns that will be searched when the user types something in the search field above the schedule. Now the columns `Class`, `Teacher` and `Day` will be considered. So the user could type search terms like `Science`, `John` or `Friday` to filter the list.
 
     ![image](./media/2018-09-14-12-51-00.jpg)
 

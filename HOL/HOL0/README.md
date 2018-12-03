@@ -218,13 +218,15 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
     ![image](./media/2018-08-30-16-43-00.jpg)
 
-1.  Use the `RDP` tab and click `Download RDP File`.
+1. Use the `RDP` tab and click `Download RDP File`.
 
     ![image](./media/2018-08-30-16-45-00.jpg)
 
-1.  A remote desktop session will start. Enter the credentials you provided when setting up the virtual machine. Once you can see the desktop of Windows Server 2016 start Visual Studio 2017. Enter the credentials you used to create the Azure Free Trial to activate Visual Studio.
+1. A remote desktop session will start. Enter the credentials you provided when setting up the virtual machine. Once you can see the desktop of Windows Server 2016 start Visual Studio 2017. Enter the credentials you used to create the Azure Free Trial to activate Visual Studio.
 
     ![image](./media/2018-08-30-16-50-00.jpg)
+
+1. The exercises will prompt you to download several files. The pre-configured security settings do not allow downloads. Start the Internet Explorer. From the Tools menu, select `Internet Options`. In the Internet Options dialog box, click the `Security` tab. Click `Custom Level`. In the Security Settings dialog box, scroll to the `Downloads` section. Under `File download`, select `Enable`, and then click `OK`. In the confirmation dialog box, click `Yes`. Click `OK` > `Apply` > `OK`. If you want to debug web applications created in the hands-on labs you can download an alternative browser like [Chrome](https://www.google.com/chrome/).
 
 Your virtual machine is now ready to use.
 

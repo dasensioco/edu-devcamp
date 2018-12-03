@@ -102,7 +102,7 @@ If this were an existing live site, you could quickly generate a web app manifes
 
 1. Next, let's fill in the empty icons array with actual image paths. For that, we'll use PWA Builder's App Image Generator.
 
-    1. Using a web browser, download [this sample PWA image set](./assets/AppImages.zip). If you have downloaded the Dev Camp content you can find the `AppImages.zip` file in the folder `HOL/HOL1/assets/`. You can create your own images and using tools like the [PWA Builder's App Image Generator](https://www.pwabuilder.com/imageGenerator) easily resize them for all applications.
+    1. Using a web browser, download [this sample PWA image set](./assets/AppImages.zip). If you have downloaded the Dev Camp content you can find the `AppImages.zip` file in the folder `HOL/HOL3/assets/`. You can create your own images and using tools like the [PWA Builder's App Image Generator](https://www.pwabuilder.com/imageGenerator) easily resize them for all applications.
     
     1. Open and Extract the zip file.
 

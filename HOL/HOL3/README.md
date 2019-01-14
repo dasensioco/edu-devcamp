@@ -122,7 +122,7 @@ If this were an existing live site, you could quickly generate a web app manifes
 
         ![image](./media/2018-06-29-15-40-00.jpg)
 
-> Please note that PWAs in Windows are currently undergoing some changes. In the future it may no longer be necessary to include the amount of icons but just a single icon file of 512 pixels by 512 pixels.
+    > Please note that PWAs in Windows are currently undergoing some changes. In the future it may no longer be necessary to include the amount of icons but just a single icon file of 512 pixels by 512 pixels.
 
 1. Now we just need to associate our web app manifest with the app itself. Open the `layout.pug` file in `views` folder for editing, and add this line right after the stylesheet link. (Its simply Node's pug template shorthand for `<link rel='manifest' href='/manifest.json'>`).
 

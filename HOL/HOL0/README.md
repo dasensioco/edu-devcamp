@@ -42,6 +42,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 > To register for a free trial use an e-mail address and a phone number that has **not been used for a free trial** yet! &#x1F53A;
 
 > It may happen that due to new feature implementations and redesign of the user interface parts of the instructions may be inaccurate. We are updating the content regularly to keep the content up to date.
+>
 > If you find an issue please submit it as an issue in Github and we will fix it as soon as possible. Thank you in advance and sorry for any inconveniences this may cause.
 
 [Back to top](#content)

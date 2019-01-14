@@ -107,7 +107,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
 ## Exercise 2: Set up demo data in the School Data Sync Admin Portal<a name="ex2"></a>
 
-1. Download these CSV files containing the demo data: [School](./assests/School.csv), [Section](./assests/Section.csv), [Student](./assests/Student.csv), [Student Enrollment](./assests/StudentEnrollment.csv), [Teacher](./assests/Teacher.csv) and [Teacher Roster](./assests/TeacherRoster.csv). If you have downloaded the Dev Camp content you can find the files in the folder `HOL/HOL0/assets/`.
+1. Download these CSV files containing the demo data: [School](assests/School.csv), [Section](./assests/Section.csv), [Student](./assests/Student.csv), [Student Enrollment](./assests/StudentEnrollment.csv), [Teacher](./assests/Teacher.csv) and [Teacher Roster](./assests/TeacherRoster.csv). If you have downloaded the Dev Camp content you can find the files in the folder `HOL/HOL0/assets/`.
 
 1. To access the School Data Sync Admin Portal launch a private web browser, navigate to [sds.microsoft.com](https://sds.microsoft.com), click `Sign-In`, then enter your O365 Global Admin account credentials.
 

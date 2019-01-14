@@ -40,7 +40,7 @@ In this lab, you will set up Microsoft Teams on your system, create your first t
 ## Exercise 1: Set up Microsoft Teams<a name="ex1"></a>
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
- and browse to [teams.microsoft.com/download](https://teams.microsoft.com/download). Click `Downloads` and select `Desktop (Windows 7+)` and click `DOWNLOAD NOW (64-BIT)`.
+ and browse to [teams.microsoft.com/download](https://teams.microsoft.com/download). Select `Desktop Apps` and `Windows` ->`Windows 7+` and click `Download (64-bit)`.
 
     ![image](./media/2018-06-28-13-33-00.jpg)
 

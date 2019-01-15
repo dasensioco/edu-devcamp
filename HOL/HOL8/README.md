@@ -89,7 +89,7 @@ Your bot is now running and can recognize some basic intents. Please note that d
 
     ![image](./media/2018-09-19-12-53-00.jpg)
 
-1. The LUIS app starts with 4 intents: `Cancel`, `Greeting`, `Help`, and `None`. Click on `Add prebuilt intent` in the top menu. Type `note` in the search box.
+1. The LUIS app starts with 4 intents: `Cancel`, `Greeting`, `Help`, and `None`. Click on `Add prebuilt domain intent` in the top menu. Type `note` in the search box.
 
     ![image](./media/2018-09-19-12-55-00.jpg)
 

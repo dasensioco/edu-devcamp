@@ -214,13 +214,17 @@ For this tutorial, we'll use a ready-made "Offline page" service worker script c
 
     1. Then, open the Edge DevTools Console (`Ctrl + Shift + J`) and verify the Service worker was registered.
 
-    1. In the `Debugger` panel, expand the `Service Workers` control and click on your origin. In the `Service Worker Overview`, verify your service worker is activated and running:
+    1. Depending on your version of Edge you will have a `Debugger` panel, where you can expand the `Service Workers` control or you will have a separate `Service Workers` panel. Click on your origin. In the `Service Worker Overview`, verify your service worker is activated and running:
 
         ![image](./media/2018-07-17-10-43-00.jpg)
 
-    1. Still in the `Debugger`, expand the `Cache` control and verify that the `offline.html` page has been cached.
+        ![image](./media/2019-02-01-10-11-00.jpg)
+
+    1. Still in the `Debugger` panel or - again depending on your browser version - go to the `Storage` panel, expand the `Cache` control and verify that the `offline.html` page has been cached.
 
         ![image](./media/2018-07-17-10-44-00.jpg)
+
+        ![image](./media/2019-02-01-10-14-00.jpg)
 
 1. Time to try your PWA as an offline app! In Visual Studio, Stop debugging (`Shift + F5`) your web app, then open Microsoft Edge (or reload) to your website's localhost address. It should now load the `offline.html` page (thanks to your service worker and offline cache).
 

@@ -52,7 +52,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 ## Exercise 1: Set up Office 365 Educational trial subscription<a name="ex1"></a>
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
- and browse to the signup page. You will be given an individual link by your instructor that includes a promo code.
+ and browse to the signup page. Use this [promo code link](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) to set up an Educational trial subscription.
 
     ![image](./media/2018-06-27-16-27-00.jpg)
 

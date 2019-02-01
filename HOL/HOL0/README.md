@@ -192,6 +192,9 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
 1. From the results select `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` and click `Create` at the bottom of the page.
 
+    > If you do not see `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` try switching the user interface to `English`.
+    > If you encounter an error when selecting the `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` image try this workaround: Select `Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)` instead and move on to the next screen where you can change your image selection to `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)`. An image based on a `Windows 10` system is required because currently it is the only operating system containing the Edge browser which is needed for debugging in HOL 3.
+
     ![image](./media/2018-08-30-13-18-00.jpg)
 
 1. Under `Subscription`, use your free trial. Also assign a name to your virtual machine and to the resource group that will be created along with the virtual machine. Enter your username and choose a password. Then select `RDP` as the available inbound port. To continue, click `Management` at the top of the page.

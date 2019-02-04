@@ -86,7 +86,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/ex1-sds-no-license.png)
 
-1. Go back to the Office 365 Admin center and click `Users` > `Active users` in the menu and select your user account. In the row `Product licenses` click `Edit` and activate the `School Data Sync` license below `Office 365 A5 for faculty` and click `Save`.
+1. Go back to the [Office 365 Admin center](https://admin.microsoft.com/Adminportal/) and click `Users` > `Active users` in the menu and select your user account. In the row `Product licenses` click `Edit` and activate the `School Data Sync` license below `Office 365 A5 for faculty` and click `Save`.
 
     ![image](./media/ex1-sds-activate-license.png)
 
@@ -114,19 +114,19 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/2018-06-28-11-23-00.jpg)
 
-1. On the `Teacher options` page click `Next`.
+1. On the `Teacher options` page make sure that `faculty` licenses are selected and click `Next`.
 
     ![image](./media/2018-06-28-11-25-00.jpg)
 
-1. On the `Student options` page click `Next`.
+1. On the `Student options` page make sure that `student` licenses are selected and click `Next`.
 
     ![image](./media/2018-06-28-11-34-00.jpg)
 
-1. On the `Review` page click `Next`.
+1. On the `Review page`, ensure you've made the appropriate selections. If no additional changes are needed, click `Create Profile`.
 
     ![image](./media/2018-06-28-11-36-00.jpg)
 
-1. On the `Review page`, ensure you've made the appropriate selections. If no additional changes are needed, click `Create Profile`. Once you create a sync profile, SDS will begin a pre-sync validation process. During this process, SDS will ensure there are no obvious errors with your CSV files. If any errors are found during the pre-sync validation process, you will have the option to fix them and re-upload the files before clicking the resume sync button and begin the real synchronization process. If you receive errors and choose not to update them, you can still choose to resume sync without fixing the errors. Just be aware that SDS can only sustain up to 15,000 errors before the profile will enter a quarantine status.
+1. Once you create a sync profile, SDS will begin a pre-sync validation process. During this process, SDS will ensure there are no obvious errors with your CSV files. If any errors are found during the pre-sync validation process, you will have the option to fix them and re-upload the files before clicking the resume sync button and begin the real synchronization process. If you receive errors and choose not to update them, you can still choose to resume sync without fixing the errors. Just be aware that SDS can only sustain up to 15,000 errors before the profile will enter a quarantine status.
 
     ![image](./media/2018-06-28-11-40-00.jpg)
 
@@ -143,6 +143,10 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
 ## Exercise 3: Set up Azure free trial subscription<a name="ex3"></a>
 The 30 day Azure free trial will be used in the hands-on labs to host content in Azure like the Progressive Web App or the Teams apps.
+
+Setting up a Azure free trial requires a credit card for verification. If you do not have a credit card at hand and your trainer can provide you with an Azure Pass promo code skip to the next subsection.
+
+### Free Trial (with credit card verification)
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
  and browse to [azure.microsoft.com/en-us/free](https://azure.microsoft.com/en-us/free/?ref=portal) and click the `Start free` button.
@@ -162,6 +166,33 @@ The 30 day Azure free trial will be used in the hands-on labs to host content in
     ![image](./media/2018-08-16-09-02-00.jpg)
 
 > If you want to start all over again to sign up for the Azure free trial, you can do so in the Azure portal. Sign in to https://portal.azure.com and select `Cost Management + Billing` from the navigation. Click `Subscriptions` in the menu and click `+ New subscription` at the top of the blade. On the next page select `Free trial` and start again with step 2. of [Exercise 3: Set up Azure free trial subscription](#ex3).
+
+### Azure Pass (with promo code)
+
+**Only continue if you skipped the previous section!**
+
+1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
+ and browse to [microsoftazurepass.com](https://microsoftazurepass.com) and click the `Start` button.
+
+    ![image](./media/2019-02-04-11-34-00.jpg)
+
+1. Make sure you are logged in with the new account you created in exercise 1 and click `Confirm Microsoft Account`.
+
+    ![image](./media/2019-02-04-11-36-00.jpg)
+
+1. Enter the promo code you received and click `Claim Promo Code`.
+
+    ![image](./media/2019-02-04-11-37-00.jpg)
+
+1. On the next screen confirm the information you entered in exercise 1 by clicking `Next`.
+
+    ![image](./media/2019-02-04-11-39-00.jpg)
+
+1. Check the `I agree...` statement and click `Sign up`.
+
+    ![image](./media/2019-02-04-11-40-00.jpg)
+    
+1. You will be redirected to the Azure portal.
 
 [Back to top](#content)
 

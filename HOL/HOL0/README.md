@@ -72,25 +72,11 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/2018-06-28-09-17-00.jpg)
 
-1. Prior to moving forward, make sure to capture the displayed information in order to sign into your new account. Wait for the page to finish loading.
+1. Wait for the setup to finish. Prior to moving forward, make sure to capture the displayed information in order to sign into your new account. Click `You're ready to go...`.
 
-    ![image](./media/2018-06-28-09-18-00.jpg)
+    ![image](./media/2019-02-04-10-09-00.jpg)
 
-1. There is no need to verify eligibility for an Educational pricing plan or register a domain. Click `I'll verify later` and confirm by clicking `Yes`.
-
-    ![image](./media/2018-06-28-09-19-00.jpg)
-
-1. You will be redirected to the Office 365 Admin center to your new subscription. You can skip the offered tour.
-
-    ![image](./media/2018-06-28-09-19-30.jpg)
-
-1. You can access the School Data Sync Ux via the menu. Click `Show more` > `Admin` > `Admin centers` > `School Data Sync` or via the search bar at the top of the admin center or directly via [sds.microsoft.com](https://sds.microsoft.com/Home/Dashboard).
-
-    ![image](./media/2018-06-28-09-27-00.jpg)
-
-    ![image](./media/2019-02-04-09-59-00.jpg)
-
-1. It may take a few minutes before you can access the SDS page.
+1. You will be redirected to the verification page. Since verification requires you to edit the DNS records of your domain and take some time just close the browser tab and browse to [sds.microsoft.com](https://sds.microsoft.com/Home/Dashboard). (Please note that the link to the SDS admin page will not appear in the Office 365 Admin center while your domain is not verified). It may take a few minutes before you can access the SDS page.
 
     ![image](./media/2018-06-28-10-48-00.jpg)
 	
@@ -101,7 +87,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 1. Go back to the Office 365 Admin center and click `Users` > `Active users` in the menu and select your user account. In the row `Product licenses` click `Edit` and activate the `School Data Sync` license below `Office 365 A5 for faculty` and click `Save`.
 
     ![image](./media/ex1-sds-activate-license.png)
-	
+
 1. Now you should be able to access the SDS page. Click `Show more` > `Admin` > `Admin centers` > `School Data Sync` again. If you are still unable to sign in to SDS, sign out of the Office 365 Admin center and sign back in to try again.
 
 [Back to top](#content)

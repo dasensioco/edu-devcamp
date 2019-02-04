@@ -84,7 +84,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/2018-06-28-09-19-30.jpg)
 
-1. You can access the School Data Sync Ux via the menu. Click `Show more` > `Admin` > `Admin centers` > `School Data Sync`.
+1. You can access the School Data Sync Ux via the menu. Click `Show more` > `Admin` > `Admin centers` > `School Data Sync` or directly via [sds.microsoft.com](https://sds.microsoft.com/Home/Dashboard).
 
     ![image](./media/2018-06-28-09-27-00.jpg)
 

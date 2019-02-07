@@ -56,7 +56,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/2018-06-27-16-27-00.jpg)
 
-1. Choose the Country/Region for your tenant (this determines the SDS Schema, and Datacenter deployment). Populate information about yourself and click `Next`.
+1. **Choose `United States`** for the Country/Region for your tenant (this determines the SDS Schema, and Datacenter deployment, **the sample data (below) does not work with all regions!**). Populate information about yourself and click `Next`.
 
     ![image](./media/2018-06-27-16-37-00.jpg)
 

@@ -41,9 +41,11 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 >
 > To register for a free trial use an e-mail address and a phone number that has **not been used for a free trial** yet! &#x1F53A;
 
+> &#x1F53A; If you encounter a problem or error message check the text below whatever step you just performed. For known issues workarounds have been added to the lab instructions **after** the description and images of the regular instruction. &#x1F53A;
+
 > It may happen that due to new feature implementations and redesign of the user interface parts of the instructions may be inaccurate. We are updating the content regularly to keep the content up to date.
 >
-> If you find an issue please submit it as an issue in Github and we will fix it as soon as possible. Thank you in advance and sorry for any inconveniences this may cause.
+> If you find an issue please submit it as an issue in GitHub and we will fix it as soon as possible. Thank you in advance and sorry for any inconveniences this may cause.
 
 [Back to top](#content)
 
@@ -215,8 +217,8 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
 1. From the results select `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` and click `Create` at the bottom of the page.
 
-    > If you do not see `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` try switching the user interface to `English`.
-    > If you encounter an error when selecting the `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` image try this workaround: Select `Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)` instead and move on to the next screen where you can change your image selection to `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)`. An image based on a `Windows 10` system is required because currently it is the only operating system containing the Edge browser which is needed for debugging in HOL 3.
+    >&#x1F53A;  If you do not see `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` try switching the user interface to `English`.
+    > If you encounter an error when selecting the `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` image try this workaround: Select `Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)` instead and move on to the next screen where you can change your image selection to `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)`. Use the dropdown on `Image` or click `Browse all images and disks` if the image does not show up in the dropdown. An image based on a `Windows 10` system is required because currently it is the only operating system containing the Edge browser which is needed for debugging in HOL 3. &#x1F53A; 
 
     ![image](./media/2018-08-30-13-18-00.jpg)
 
@@ -260,7 +262,7 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
 Your virtual machine is now ready to use.
 
->&#x1F53A; Even though you chose the `latest release` VM there might be new updates available for Visual Studio 2017 which are now released in very short intervals. It is **not** necessary and recommended to install these! The updates are usually quite large and the installation will take time! &#x1F53A;
+>&#x1F53A; Even though you chose the `latest release` VM there might be new updates available for Visual Studio 2017 which are now released in very short intervals. It is **not** necessary and recommended to install these! The updates are usually quite large and the installation will take time! Only update if a version **lower than 15.7.0** is installed (check `Help` -> `About Microsoft Visual Studio`)! &#x1F53A;
 
 [Back to top](#content)
 

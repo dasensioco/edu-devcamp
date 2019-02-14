@@ -42,7 +42,7 @@ In the previous hands-on-lab you created a sync to upload sample data to your Sc
 
     ![image](./media/2018-07-17-12-53-00.jpg)
 
-1. Click `Students` to see the list of teachers. Select a teacher to see details.
+1. Click `Students` to see the list of students. Select a student to see details.
 
     ![image](./media/2018-07-17-12-54-00.jpg)
 

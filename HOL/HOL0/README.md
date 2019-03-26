@@ -207,20 +207,21 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
 1. Open an InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge, Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome), browse to [portal.azure.com](https://portal.azure.com) and sign in using the e-mail address used in the previous exercise.
 
-1. Click `Create a resource` in the menu on the left.
+1. Click `Virtual machines` in the menu on the left.
 
     ![image](./media/2018-07-18-15-24-00.jpg)
 
-1. Enter `Visual Studio Community 2017` in the search box.
+1. Click the `+ Add` button on the top menu.
 
-    ![image](./media/2018-07-18-15-39-00.jpg)
+1. Enter a `Virtual machine name`.
+
+1. Then click `Browse all images and disks` below the `Image` dropdown.
+
+1. Enter `Visual Studio Community 2017` in the search box.
 
 1. From the results select `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` and click `Create` at the bottom of the page.
 
-    >&#x1F53A;  If you do not see `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` try switching the user interface to `English`.
-    > If you encounter an error when selecting the `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)` image try this workaround: Select `Visual Studio Community 2017 (latest release) on Windows Server 2016 (x64)` instead and move on to the next screen where you can change your image selection to `Visual Studio Community 2017 (latest release) on Windows 10 Enterprise (x64)`. Use the dropdown on `Image` or click `Browse all images and disks` if the image does not show up in the dropdown. An image based on a `Windows 10` system is required because currently it is the only operating system containing the Edge browser which is needed for debugging in HOL 3. &#x1F53A; 
-
-    ![image](./media/2018-08-30-13-18-00.jpg)
+    ![image](./media/2019-03-26-11-51-00.jpg)
 
 1. Under `Subscription`, use your free trial. Also assign a name to your virtual machine and to the resource group that will be created along with the virtual machine. Enter your username and choose a password. Then select `RDP` as the available inbound port. To continue, click `Management` at the top of the page.
 

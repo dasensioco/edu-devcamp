@@ -263,7 +263,7 @@ This simple sample app will demonstrate the abilities of tabs and demonstrate ho
 
 1. You need a manifest file that will tell Teams all about your app. Download the 3 files from the [manifest](./assets/manifest) folder and use Visual Studio to open `manifest.json`.
 
-1. Go to `Tools` -> `Create GUID` to create a new unique guid for your app. Copy it and replace the guid next to `"id":`.
+1. Go to `Tools` -> `Create GUID` to create a new unique guid for your app. Choose format 4. Copy it and replace the guid next to `"id":`. Make sure to remove all brackets from the string.
 
     ![image](./media/2018-09-06-16-51-00.jpg)
 

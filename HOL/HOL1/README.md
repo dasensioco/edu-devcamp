@@ -66,7 +66,7 @@ When you want to utilize your data within your own applications you use the Micr
 
     ![image](./media/2018-07-17-16-04-00.jpg)
 
-1. Add permissions for `EduRoster.ReadBasic` and `Group.ReadAll` and click `Modify Permissions`.
+1. Add permissions for `EduRoster.ReadBasic` and `Group.Read.All` and click `Modify Permissions`.
 
     ![image](./media/2018-07-17-16-06-00.jpg)
 

@@ -168,7 +168,11 @@ For this tutorial, we'll use a ready-made "Offline page" service worker script c
 
     ![image](./media/2018-06-29-16-48-00.jpg)
 
-    Its worth reviewing the code in both of these files, to get the gist of how to register a service worker that caches a designated page (`offline.html`) and serves it when a network fetch fails. Next, we need to create a simple `offline.html` page as a placeholder for our app's offline functionality.
+    Its worth reviewing the code in both of these JavaScript files, to get the gist of how to register a service worker that caches a designated page (`offline.html`) and serves it when a network fetch fails.
+
+1. To work off-line you will emulate a server response. In the Solution Explorer, right-click on the public folder and select `Add` > `New File...`. Name it `vapidPublicKey`. Open it and enter `Test`.
+
+    Next, we need to create a simple `offline.html` page as a placeholder for our app's offline functionality.
 
 1. In Solution Explorer, open the `views/layout.pug` file, and add the following line below your link tags:
 

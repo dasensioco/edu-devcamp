@@ -93,7 +93,7 @@ Your bot is now running and can recognize some basic intents. Please note that d
 
     ![image](./media/2018-09-19-12-55-00.jpg)
 
-1. Select `Node.Create`, `Node.Delete` and `Note.ReadAloud` and click `Done`.
+1. Select `Note.Create`, `Note.Delete` and `Note.ReadAloud` and click `Done`.
 
     ![image](./media/2018-09-19-12-57-00.jpg)
 

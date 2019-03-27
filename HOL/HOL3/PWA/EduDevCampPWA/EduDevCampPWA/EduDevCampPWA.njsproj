@@ -143,6 +143,7 @@
     <Content Include="public\manifest.json" />
     <Content Include="public\offline.html" />
     <Content Include="public\stylesheets\main.css" />
+    <Content Include="public\vapidPublicKey" />
     <Content Include="README.md" />
     <Content Include="routes\classes.js" />
     <Content Include="views\classes.pug" />

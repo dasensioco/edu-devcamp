@@ -59,6 +59,8 @@ In this lab, you will learn how to create an Azure bot, make it available in Tea
 
 1. Confirm that the bot service has been deployed. Click `Notifications` (the bell icon that is located along the top edge of the Azure portal). The notification will change from `Deployment started` to `Deployment succeeded`. After the notification changes to `Deployment succeeded`, click `Go to resource` on that notification.
 
+    **If you encounter errors when creating the bot delete it and start again. In many cases a second attempt will create a bot without errors.**
+
 [Back to top](#content)
 
 ---
@@ -68,6 +70,8 @@ In this lab, you will learn how to create an Azure bot, make it available in Tea
 1. Once the bot is registered, click `Test in Web Chat` to open the Web Chat pane. Type `hello` in Web Chat. The bot responds by saying `You have reached Greeting. You said: hello`. This confirms that the bot has received your message and passed it to a default LUIS app that it created. This default LUIS app detected a Greeting intent.
 
     ![image](./media/2018-09-19-13-22-00.jpg)
+
+    **If the bot does not respond try reloading the page. There is a known problem with the authentication that happens in the background when you load the page for the first time.**
 
 1. Try `can you help me?` and see how the bot recognizes your help intend.
 

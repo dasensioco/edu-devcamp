@@ -132,11 +132,11 @@ If this were an existing live site, you could quickly generate a web app manifes
 
     ![image](./media/2018-06-29-16-01-00.jpg)
 
-    With all that in place, your web app is now serving up a manifest and homescreen-ready app icons! Try running your app (F5) and loading up the [manifest](http://localhost:1337/images/windows10/SplashScreen.scale-400.png):
+    With all that in place, your web app is now serving up a manifest and homescreen-ready app icons! Try running your app (F5) and loading up the [manifest](http://localhost:1337/manifest.json):
 
     ![image](./media/2018-06-29-15-42-00.jpg)
 
-    And one of your [icons](http://localhost:1337/manifest.json):
+    And one of your [icons](http://localhost:1337/images/windows10/SplashScreen.scale-400.png):
 
     ![image](./media/2018-06-29-15-44-00.jpg)
 

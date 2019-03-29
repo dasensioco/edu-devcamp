@@ -269,7 +269,7 @@ This simple sample app will demonstrate the abilities of tabs and demonstrate ho
 
     ![image](./media/2018-09-06-16-51-00.jpg)
 
-1. Set you e-mail address next to `"name":` and replace the five occurrences of `YOURAPPNAME` for the values of `websiteUrl`, `privacyUrl`, `termsOfUseUrl`, `configurationUrl` and `validDomains`.
+1. Set your name next to `"name":` (you must not enter more that 32 characters!) and replace the five occurrences of `YOURAPPNAME` for the values of `websiteUrl`, `privacyUrl`, `termsOfUseUrl`, `configurationUrl` and `validDomains`.
 
 1. Save all changes.
 
@@ -354,13 +354,13 @@ Now it is time to add your app as a tab in Microsoft Teams. Since some of the Gr
 
     ![image](./media/2018-09-10-11-39-00.jpg)
 
-1. The (nearly empty) configuration page will be displayed. Click `Save`.
-
-    ![image](./media/2018-09-10-11-55-00.jpg)
-
-1. Click `Set up`. Your app has now been added to the `General` section of the selected class.
+1. Click `Set up`.
 
     ![image](./media/2018-09-10-12-26-00.jpg)
+
+1. The (nearly empty) configuration page will be displayed. Click `Save`. Your app has now been added to the `General` section of the selected class.
+
+    ![image](./media/2018-09-10-11-55-00.jpg)
 
 1. Go to `General` and click `My classmates`. You will see the `Show classmates` button. Once you press it you will be first prompted to enter your credentials and then prompted to grant permissions to the app. Once you click `Accept` the team member data will be loaded via the Graph API.
 

@@ -205,6 +205,8 @@ For your app to be able to gain permissions to Microsoft Graph API you will need
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [apps.dev.microsoft.com](http://apps.dev.microsoft.com) and sign in.
 
+    Ignore the message that tells you about the new `App Registrations` feature in Azure. That is still in preview and will not be used during this lab.
+
     ![image](./media/2018-09-06-15-36-00.jpg)
 
 1. Click `Add an app`, enter a name for your app and click `Create`.

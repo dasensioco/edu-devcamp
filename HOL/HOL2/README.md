@@ -61,11 +61,11 @@ In this lab, you will set up Microsoft Teams on your system, create your first t
 
 ### Create a team<a name="ex2a"></a>
 
-1. On the menu on the left click `Teams` and then click the `Create team` button in the center.
+1. On the menu on the left click `Teams` and then click the `Create team` button in the center (if you already have a team the button to create a new team will be at the bottom of the list of teams).
 
     ![image](./media/2018-06-28-15-41-00.jpg)
 
-1. Select `Classes` as the team type. Note that you will only see these choices if you are logged in an educational tenant.
+1. Select `Classes` as the team type. Note that you will only see these choices if you are logged in into an educational tenant.
 
     ![image](./media/2018-06-28-15-41-30.jpg)
 
@@ -136,7 +136,7 @@ To see the demo data you created in [HOL 0](./../HOL0) you have to use Teams as 
 
 1. Return to the list of active users and repeat the process for one of Bill's students in the `Technology - Programming 2` class: `Jane Doe`.
 
-1. On the menu on the left click `Settings` > `Services & add-ins`. Select `Microsoft Teams` from the list. Under `Settings by user/license type` select `Education - Student` and check `Turn Microsoft Teams on or off for all users of this type`. Click `Save`. All students are now allowed to use Teams.
+1. On the menu on the left click `Settings` (you may have to click `Show all` first to see `Settings`) > `Services & add-ins`. Select `Microsoft Teams` from the list. Under `Settings by user/license type` select `Education - Student` and check `Turn Microsoft Teams on or off for all users of this type`. Click `Save`. All students are now allowed to use Teams.
 
     ![image](./media/2018-12-03-16-08-00.jpg)
 

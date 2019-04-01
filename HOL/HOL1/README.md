@@ -46,7 +46,7 @@ In the previous hands-on-lab you created a sync to upload sample data to your Sc
 
     ![image](./media/2018-07-17-12-54-00.jpg)
 
-1. Click `Advanced Search` to see created queries on your data. You can combine multiple criteria to filter your data.
+1. Click `Advanced Search` to see created queries on your data. You can combine multiple criteria to filter your data. Click the headlines `Schools`, `Sections`, `Teachers`, `Students` to search in these categories. Note that the query options will vary depending on the category.
 
     ![image](./media/2018-07-17-13-16-00.jpg)
 
@@ -84,7 +84,7 @@ When you want to utilize your data within your own applications you use the Micr
 
     1. Query `https://graph.microsoft.com/v1.0/groups/` to get a list of all groups including the classes. Note the id of classes `Science - Biology 2` and `English - Language 1`.
 
-    1. Query `https://graph.microsoft.com/v1.0/groups/<ID OF Science - Biology 2>/members/` to get a list of students in the `Science - Biology 2` class. Note the id of a students.
+    1. Query `https://graph.microsoft.com/v1.0/groups/<ID OF Science - Biology 2>/members/` to get a list of students in the `Science - Biology 2` class. Note the id of a student.
 
     1. Change the request method from `GET` to `POST`. Query `https://graph.microsoft.com/v1.0/groups/<English - Language 1>/members/$ref` with `{ "@odata.id":"https://graph.microsoft.com/v1.0/users/<ID OF A STUDENT>" }` in the `Request Body` field. Make sure you add the [required permissions](https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/api/group_post_members) to your own account.
 

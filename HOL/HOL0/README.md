@@ -223,7 +223,7 @@ To follow the programming examples in the upcoming hands-on labs you will need a
 
     ![image](./media/2019-03-26-11-51-00.jpg)
 
-1. Under `Subscription`, use your free trial. Also assign a name to your virtual machine and to the resource group that will be created along with the virtual machine. Enter your username and choose a password. Then select `RDP` as the available inbound port. To continue, click `Management` at the top of the page.
+1. Under `Subscription`, use your free trial. Also assign a name to your virtual machine and to the resource group that will be created along with the virtual machine. Enter your username and choose a password. Then click `Allow selected ports` and select `RDP` as the available inbound port. To continue, click `Management` at the top of the page.
 
     ![image](./media/2018-08-30-16-27-00.jpg)
 

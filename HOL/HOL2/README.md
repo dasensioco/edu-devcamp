@@ -282,7 +282,7 @@ You must configure your Office 365 to allow Teams the use of external apps (that
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
  and browse to [admin.microsoft.com](https://admin.microsoft.com) and enter your O365 Global Admin account credentials. 
 
-1. Click `Services & add-ins` and select `Microsoft Teams`.
+1. On the menu on the left click `Settings` (you may have to click `Show all` first to see `Settings`) > `Services & add-ins` and select `Microsoft Teams`.
 
     ![image](./media/2018-06-28-16-16-00.jpg)
 
@@ -342,7 +342,7 @@ Now it is time to add your app as a tab in Microsoft Teams. Since some of the Gr
 
 1. Start the teams client and login as `Bill Sluss`.
 
-1. Click `Store` on the bottom of the left menu and then `Upload a custom app` at the end of the list (if another pop-up appears select `Upload for me or my team`).
+1. Click `Apps` on the bottom of the left menu and then `Upload a custom app` at the end of the list (if another pop-up appears select `Upload for me or my team`).
 
     ![image](./media/2018-09-10-11-31-00.jpg)
 

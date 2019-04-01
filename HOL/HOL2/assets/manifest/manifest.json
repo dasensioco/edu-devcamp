@@ -2,10 +2,10 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json", 
   "manifestVersion": "1.2",
   "version": "1.0.0",
-  "id": "3A311CD8-BBC5-41D4-A23D-04026E2BF989",
+  "id": "YOUR NEWLY CREATED GUID",
   "packageName": "EDC Teams Tab App",
   "developer": {
-    "name": "name@yourdomain.onmicrosoft.com",
+    "name": "YOURNAME",
     "websiteUrl": "https://YOURAPPNAME.azurewebsites.net/todo.html",
     "privacyUrl": "https://YOURAPPNAME.azurewebsites.net/todo.html",
     "termsOfUseUrl": "https://YOURAPPNAME.azurewebsites.net/todo.html"

@@ -31,7 +31,7 @@ Microsoft PowerApps are a very fast way to create apps based on your data. The s
 
     ![image](./media/2018-09-14-11-54-00.jpg)
 
-1. Click `Make this app`.
+1. Click `Create`.
 
     ![image](./media/2018-09-14-11-55-00.jpg)
 

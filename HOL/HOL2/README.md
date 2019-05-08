@@ -61,7 +61,7 @@ In this lab, you will set up Microsoft Teams on your system, create your first t
 
 ### Create a team<a name="ex2a"></a>
 
-1. On the menu on the left click `Teams` and then click the `Create team` button in the center (if you already have a team the button to create a new team will be at the bottom of the list of teams).
+1. On the menu on the left click `Teams` and then click the `Create team` button in the center (if you already have a team click the button at the bottom of the list of teams called `Join or create a team` to make the `Create team` button show up in the center).
 
     ![image](./media/2018-06-28-15-41-00.jpg)
 

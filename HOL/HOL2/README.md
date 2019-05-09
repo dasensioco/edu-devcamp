@@ -363,7 +363,7 @@ Now it is time to add your app as a tab in Microsoft Teams. Since some of the Gr
 
     ![image](./media/2018-09-10-11-55-00.jpg)
 
-1. Go to `General` and click `My classmates`. You will see the `Show classmates` button. Once you press it you will be first prompted to enter your credentials and then prompted to grant permissions to the app. Once you click `Accept` the team member data will be loaded via the Graph API.
+1. Go to `General` and click `My classmates`. You will see the `Show classmates` button. Once you press it you will be first prompted to enter your credentials (and might be prompted to grant permissions to the app). Once you close the dialog the team member data will be loaded via the Graph API.
 
     ![image](./media/2018-09-10-16-34-00.jpg)
 

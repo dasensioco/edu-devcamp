@@ -179,13 +179,17 @@ You need the Azure trial subscription created in HOL 0.
 
     ![image](./media/2018-09-05-10-50-00.jpg)
 
-1. We will create a simple HTML based app with inline JavaScript code so it will be sufficient to use the `Web App` template. Select it and click `Create`.
+1. We will create a simple HTML based app with inline JavaScript code so it will be sufficient to use the preselected `Web App` template. Enter a name for your new app, select the resource group you used to create the virtual machine in HOL 0. For `Publish` select `Code`, for `Runtime stack` `ASP.NET V4.7`, for `Operating System` `Windows` and click `Next: Monitoring`.
 
     ![image](./media/2018-09-05-10-59-00.jpg)
 
-1. Enter a name for your new app, select the resource group you used to create the virtual machine in HOL 0 and click `Create`.
+1. Disable Application Insights and click `Review and create`.
 
     ![image](./media/2018-09-05-11-01-00.jpg)
+
+1. Click `Create`.
+
+    ![image](./media/2019-05-08-15-36-00.jpg)
 
 1. A notification will tell you when the deployment finished.
 
@@ -203,39 +207,40 @@ You need the Azure trial subscription created in HOL 0.
 
 For your app to be able to gain permissions to Microsoft Graph API you will need an app id.
 
-1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [apps.dev.microsoft.com](http://apps.dev.microsoft.com) and sign in.
+1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [portal.azure.com](https://portal.azure.com/) and sign in. Click `All services` and select `App registrations` in the `Identity` section from the list.
 
-    Ignore the message that tells you about the new `App Registrations` feature in Azure. That is still in preview and will not be used during this lab.
 
     ![image](./media/2018-09-06-15-36-00.jpg)
 
-1. Click `Add an app`, enter a name for your app and click `Create`.
+1. Click `New registration`, enter a name for your app, select `Accounts in any organizational directory and personal Microsoft accounts (e.g. Skype, Xbox, Outlook.com)` and for the redirect URI paste the URL to your web app that you noted when you created the Azure app service and add `/silent-end.html` (a page you will be creating as part of your app). This is the URL that the authentication service will redirect to after the authentication has been completed. Click `Create`.
 
     ![image](./media/2018-09-06-15-39-00.jpg)
 
-1. Note the `Application Id` value.
+1. Note the `Application (client) Id` value.
 
     ![image](./media/2018-09-06-15-41-00.jpg)
 
-1. Scroll down to the `Platforms` section and click `Add Platform`.
-
-    ![image](./media/2018-09-06-15-43-00.jpg)
-
-1. Select `Web`.
-
-    ![image](./media/2018-09-06-15-46-00.jpg)
-
-1. Paste the URL to your web app that you noted when you created the Azure app service and add `/silent-end.html` (a page you will be creating as part of your app). This is the URL that the authentication service will redirect to after the authentication has been completed.
-
-    ![image](./media/2018-09-06-15-48-00.jpg)
-
-1. Scroll down to the `Microsoft Graph Permissions section` and click `Add` next to `Delegated Permissions`.
+1. Click `API Permissions` on the menu on the left.
 
     ![image](./media/2018-09-06-16-00-00.jpg)
 
-1. Select `EduRoster.Read`, `Group.Read.All`, `User.Read.All` and click `OK`.
+1. Click `Add a permission` and click `Microsoft Graph`.
 
-1. To finish the configuration click `Save` at the bottom of the screen.
+    ![image](./media/2018-09-06-15-46-00.jpg)
+
+1. Click `Delegated permission`. Select `EduRoster.Read`, `Group.Read.All`, `User.Read.All` and click `Add permissions`.
+
+    ![image](./media/2018-09-06-15-43-00.jpg)
+
+1. In the `Grant consent` section on the bottom click the `Grant admin consent` button.
+
+    ![image](./media/2018-09-06-15-48-00.jpg)
+
+1. Confirm by clicking `Yes`.
+
+    ![image](./media/2018-09-06-16-00-00.jpg)
+
+1. Click `Authentication` on the menu on the left. Check `Access tokens` and `ID tokens` in the `Advanced settings` section and click `Save` at the top of the page.
 
     ![image](./media/2018-09-06-16-02-00.jpg)
 

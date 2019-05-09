@@ -220,11 +220,7 @@ For your app to be able to gain permissions to Microsoft Graph API you will need
 
     ![image](./media/2018-09-06-15-41-00.jpg)
 
-1. Click `API Permissions` on the menu on the left.
-
-    ![image](./media/2018-09-06-16-00-00.jpg)
-
-1. Click `Add a permission` and click `Microsoft Graph`.
+1. Click `API Permissions` on the menu on the left. Click `Add a permission` and click `Microsoft Graph`.
 
     ![image](./media/2018-09-06-15-46-00.jpg)
 

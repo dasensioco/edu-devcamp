@@ -58,7 +58,6 @@
 * [Exercise 1: Create a web app and add the Application Insight SDK](HOL4/#ex1)
 * [Exercise 2: Monitoring](HOL4/#ex2)
 * [Exercise 3: Advanced tracking and monitoring custom events](HOL4/#ex3)
-* [Download the finished PWA solution](HOL4/#download)
 
 ---
 ## HOL 5 - PowerBI

@@ -106,6 +106,14 @@
     * [Install the bot](HOL8/#ex6d)
 
 ---
+## HOL 9 - Share to Teams and Immersive Reader
+
+* [Overview](HOL9/#overview)
+* [Prerequisites](HOL9/#prerequisites)
+* [Exercise 1: Create a web page and add the Share to Teams button](HOL9/#ex1)
+* [Exercise 2: Create a web page and add the Immersive Reader SDK](HOL9/#ex2)
+
+---
 
 [Back to top](#content)
 

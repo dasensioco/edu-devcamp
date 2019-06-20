@@ -106,12 +106,12 @@
     * [Install the bot](HOL8/#ex6d)
 
 ---
-## HOL 9 - Share to Teams and Immersive Reader
+## HOL 10 - Share to Teams and Immersive Reader
 
-* [Overview](HOL9/#overview)
-* [Prerequisites](HOL9/#prerequisites)
-* [Exercise 1: Create a web page and add the Share to Teams button](HOL9/#ex1)
-* [Exercise 2: Create a web page and add the Immersive Reader SDK](HOL9/#ex2)
+* [Overview](HOL10/#overview)
+* [Prerequisites](HOL10/#prerequisites)
+* [Exercise 1: Create a web page and add the Share to Teams button](HOL10/#ex1)
+* [Exercise 2: Create a web page and add the Immersive Reader SDK](HOL10/#ex2)
 
 ---
 
@@ -119,4 +119,4 @@
 
 ---
 
-Copyright 2018 Microsoft Corporation. All rights reserved. Except where otherwise noted, these materials are licensed under the terms of the MIT License. You may use them according to the license as is most appropriate for your project. The terms of this license can be found at https://opensource.org/licenses/MIT.
+Copyright 2019 Microsoft Corporation. All rights reserved. Except where otherwise noted, these materials are licensed under the terms of the MIT License. You may use them according to the license as is most appropriate for your project. The terms of this license can be found at https://opensource.org/licenses/MIT.

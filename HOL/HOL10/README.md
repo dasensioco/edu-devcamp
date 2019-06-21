@@ -119,13 +119,13 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [portal.azure.com](https://portal.azure.com/) and sign in. Select `Create new resource` in the menu blade and select `AI + Machine Learning` in the `New` blade.
 
-    ![image](./media/CreateResource1.PNG)
+    ![image](./media/CreateResource1.png)
 
 1. If you don't see the `Immersive Reader` service, click on `See More` to view the entire catalog of `Cognitive Services` APIs.
 
-    ![image](./media/CreateResource2.PNG)
+    ![image](./media/CreateResource2.png)
 
-1. On the Create page, provide the following information:
+1. On the `Create` blade, provide the following information:
 
     ![image](./media/createir.png)
 
@@ -139,7 +139,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
 ### Create a Node.js web app with Express and add the Immersive Reader SDK
 
-1. Create a Node.js web ap with the `express-generator` tool.
+1. Create a Node.js web app with the `express-generator` tool.
 
     ```bash
     npm install express-generator -g
@@ -147,7 +147,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
     cd immersivereader
     ```
 
-1. Install yarn dependencies, and add dependencies `request` and `dotenv`, which will be used later in the tutorial.
+1. Install `yarn` dependencies, and add dependencies `request` and `dotenv`, which will be used later in this exercise.
 
     ```bash
     yarn
@@ -159,7 +159,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
     ![image](./media/endpoint.png)
 
-    Once you have your subscription key and endpoint, create a new file called .env in your immersivereader folder, and paste the following code into it, replacing {YOUR_SUBSCRIPTION_KEY} and {YOUR_ENDPOINT} with your subscription key and endpoint, respectively.
+    Once you have your subscription key and endpoint, create a new file called .env in your immersivereader folder, and paste the following code into it, replacing `{YOUR_SUBSCRIPTION_KEY}` and `{YOUR_ENDPOINT}` with your subscription key and endpoint, respectively.
 
     ```
     SUBSCRIPTION_KEY={YOUR_SUBSCRIPTION_KEY}

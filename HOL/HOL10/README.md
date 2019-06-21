@@ -21,21 +21,6 @@ In this lab, you will learn how to integrate the Share to Teams button and Immer
 * For the Share to Teams complete [HOL 2](./../HOL2) to install and configure the Microsoft Teams client.
 * For the Immersive Reader install [Node.js](https://nodejs.org) and Yarn.
 
-### Note (only relevant while Share to Teams is in Developer Preview)
-
-To view this functionality in Developer Preview, you'll need to:
-
-1. Go to https://teams.microsoft.com from the same browser that you wish to test the functionality from.
-2. Set your browser client to Developer Preview (similar to how you would configure your desktop client for Developer Preview).
-    * Click your Avatar in the top right corner.
-    * Select About, then Developer Preview.
-3. Test your configuration by going to https://teams.microsoft.com/share. The Share-to-Teams form should load.
-4. Proceed to test your application in a separate tab in the same browser.
-
-If you receive the error message "The resource you are looking for has been removed, had its name changed, or is temporarily unavailable." you have not properly configured your browser session to use Developer Preview.
-
-Only the desktop versions of Edge, Firefox, and Chrome are supported.
-
 [Back to top](#content)
 
 ---
@@ -109,9 +94,9 @@ For teachers using the Share-to-Teams button you will be given an additional opt
 
 ---
 
-## Create a web page and add the Immersive Reader SDK<a name="ex2"></a>
+## Exercise 2: Create a web page and add the Immersive Reader SDK<a name="ex2"></a>
 
-The Immersive Reader is an inclusively designed tool that implements proven techniques to improve reading comprehension for emergin readers, language learners, and people with learning differences such as dyslexia.
+The Immersive Reader is an inclusively designed tool that implements proven techniques to improve reading comprehension for emerging readers, language learners, and people with learning differences such as dyslexia.
 
 You can use the Immersive Reader in your web application by using the Immersive Reader SDK.
 
@@ -125,7 +110,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
     ![image](./media/createresource-aimachinelearning-seemore.png)
 	
-1. Select `Immersive Reader (preview)` from the list of `Cognitive Services`.
+1. Select `Immersive Reader (preview)` from the list of `Cognitive Services`. Click `Load More` at the bottom of the page if you don't see the service.
 
     ![image](./media/createresource-immersivereader.png)
 
@@ -163,7 +148,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
     yarn add dotenv
     ```
 
-1. Next, write a backend API to retrieve an access token using your subscription key. You need your subscription key and endpoint for this next step. You can find that information at https://azure.microsoft.com/try/cognitive-services/my-apis/.
+1. Next, write a backend API to retrieve an access token using your subscription key. You need your subscription key and endpoint for this next step. You can find that information in the `Immersive Reader` resource.
 
     ![image](./media/endpoint.png)
 
@@ -211,10 +196,13 @@ You can use the Immersive Reader in your web application by using the Immersive 
 1. Open `views\layout.pug`, and add the following code under the head tag, before the body tag. These script tags load the Immersive Reader SDK and jQuery.
 
     ```pug
-    script(src='https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.1.0.0.js')
+    script(src='https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.0.0.1.js')
     script(src='https://code.jquery.com/jquery-3.3.1.min.js')
     ```
 
+> Please note that this version of the SDK is for development and testing purposes only. To use the script in production enviroments change the URL to the following value (changing version 0.0.1 to 1.0.0):
+> https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.1.0.0.js
+	
 1. Open `views\index.pug`, and replace its content with the following code. This code populates the page with some sample content, and adds a button that launches the Immersive Reader.
 
     ```pug

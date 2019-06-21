@@ -200,8 +200,8 @@ You can use the Immersive Reader in your web application by using the Immersive 
     script(src='https://code.jquery.com/jquery-3.3.1.min.js')
     ```
 
-> Please note that this version of the SDK is for development and testing purposes only. To use the script in production enviroments change the URL to the following value (changing version 0.0.1 to 1.0.0):
-> https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.1.0.0.js
+	> Please note that this version of the SDK is for development and testing purposes only. To use the script in production enviroments change the URL to the following value (changing version 0.0.1 to 1.0.0):
+	> https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.1.0.0.js
 	
 1. Open `views\index.pug`, and replace its content with the following code. This code populates the page with some sample content, and adds a button that launches the Immersive Reader.
 

@@ -101,9 +101,9 @@ Third-party websites can use the launcher script to embed Share-to-Teams buttons
 
 ### Share-to-Teams for Education
 
-For teachers using the Share-to-Teams button you'll be given an additional option to Create an Assignment. This enables you to quickly create an assignment in the chosen Team based on the shared link.
+For teachers using the Share-to-Teams button you will be given an additional option to create an assignment. This enables you to quickly create an assignment in the chosen Team based on the shared link.
 
-![image](./media/shareedu.png)
+![image](./media/sharetoteams-createassignment.png)
 
 [Back to top](#content)
 
@@ -124,6 +124,14 @@ You can use the Immersive Reader in your web application by using the Immersive 
 1. If you don't see the `Immersive Reader` service, click on `See More` to view the entire catalog of `Cognitive Services` APIs.
 
     ![image](./media/createresource-aimachinelearning-seemore.png)
+	
+1. Select `Immersive Reader` from the list of services.
+
+    ![image](./media/createresource-immersivereader.png)
+
+1. Continue by clicking `Create`.
+
+    ![image](./media/createresource-immersivereader-create.png)
 
 1. On the `Create` blade, provide the following information:
 

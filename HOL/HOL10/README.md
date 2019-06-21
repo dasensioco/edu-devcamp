@@ -111,7 +111,7 @@ For teachers using the Share-to-Teams button you'll be given an additional optio
 
 ## Create a web page and add the Immersive Reader SDK<a name="ex2"></a>
 
-The Immersive Reader is an inclusively designed tool that implements proven techniques to improve reading comprehension for emergin reader, language learners, and people with learning differences such as dyslexia.
+The Immersive Reader is an inclusively designed tool that implements proven techniques to improve reading comprehension for emergin readers, language learners, and people with learning differences such as dyslexia.
 
 You can use the Immersive Reader in your web application by using the Immersive Reader SDK.
 

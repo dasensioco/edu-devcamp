@@ -84,6 +84,21 @@ Third-party websites can use the launcher script to embed Share-to-Teams buttons
 
     ![image](./media/share.png)
 
+### Crafting your website preview
+
+When your website is shared to Teams, the card that is inserted into the selected channel will contain a preview of your website. You can control the behavior of this preview by ensuring the appropriate meta-data is added to the website being shared (the data-href URL). The table below outlines the necessary tags. You can use either the html default versions, or the Open Graph version.
+
+In order for the preview to be displayed you must:
+
+- Include either a Thumbnail image, or both a Title and Description (for best results, include all three).
+- The URL being shared cannot require authentication. If it does you can still share it, but the preview will not be created.
+
+Value | Meta tag | Open Graph
+------------ | ------------- | -------------
+Title | `<meta property="title" content="Example Page Title">` | `<meta property="og:title" content="Example Page Title">`
+Description | `<meta name=”description” content=”Example Page Description”>` | `<meta property=”og:description” content=”Example Page Description”>`
+Thumbnail Image | none  | `<meta property=”og:image” content=”http://example.com/image.jpg”>`
+
 ### Share-to-Teams for Education
 
 For teachers using the Share-to-Teams button you will be given an additional option to create an assignment. This enables you to quickly create an assignment in the chosen Team based on the shared link.
@@ -173,7 +188,8 @@ You can use the Immersive Reader in your web application by using the Immersive 
     var request = require('request');
     ```
 
-    Next, add the following code directly below that line. This code creates an API endpoint that acquires an access token using your subscription key, and then returns that token.
+    Next, add the following code block directly below the line with `var router = express.Router();`. 
+    That code will create an API endpoint that acquires an access token using your subscription key, and then returns that token.
 
     ```js
     router.get('/token', function(req, res, next) {
@@ -196,7 +212,7 @@ You can use the Immersive Reader in your web application by using the Immersive 
 1. Open `views\layout.pug`, and add the following code under the head tag, before the body tag. These script tags load the Immersive Reader SDK and jQuery.
 
     ```pug
-    script(src='https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.1.0.0.js')
+    script(src='https://contentstorage.onenote.office.net/onenoteltir/immersivereadersdk/immersive-reader-sdk.preview.js')
     script(src='https://code.jquery.com/jquery-3.3.1.min.js')
     ```
 

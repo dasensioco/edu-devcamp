@@ -60,7 +60,7 @@ Third-party websites can use the launcher script to embed Share-to-Teams buttons
     <script async defer src="https://teams.microsoft.com/share/launcher.js"></script>
     ```
 
-4. Next, add an HTML element on your webpage with the `teams-share-button` class attribute and the link to share in the `data-href` attribute.
+1. Next, add an HTML element on your webpage with the `teams-share-button` class attribute and the link to share in the `data-href` attribute.
 
     ```html
     <div
@@ -95,7 +95,7 @@ Third-party websites can use the launcher script to embed Share-to-Teams buttons
 
     If your page dynamically renders content, you can use the the shareToMicrosoftTeams.renderButtons() method to force the Share button to render at the appropriate place in the pipeline.
 
-5. Open the HTML file with a browser and click on the appearing Teams icon.
+1. Open the HTML file with a browser and click on the appearing Teams icon.
 
     ![image](./media/share.png)
 
@@ -117,13 +117,13 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
 ### Create and subscribe to  Cognitive Service account in the Azure portal
 
-1. Sign in to the [Azure portal](https://portal.azure.com/), and click +Create a resource.
+1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [portal.azure.com](https://portal.azure.com/) and sign in. Select `Create new resource` in the menu blade and select `AI + Machine Learning` in the `New` blade.
 
-    ![image](./media/azureportalscreen.png)
+    ![image](./media/CreateResource1.png)
 
-1. Under Azure Marketplace, select AI + Machine Learning. If you don't see the service you're interested in, click on See all to view the entire catalog of Cognitive Services APIs.
+1. If you don't see the `Immersive Reader` service, click on `See More` to view the entire catalog of `Cognitive Services` APIs.
 
-    ![image](./media/azuremarketplace.png)
+    ![image](./media/CreateResource2.png)
 
 1. On the Create page, provide the following information:
 

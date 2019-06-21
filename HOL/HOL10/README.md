@@ -167,6 +167,8 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
     ![image](./media/endpoint.png)
 
+    ![image](./media/IRKeys.jpg)
+
     Once you have your subscription key and endpoint, create a new file called .env in your immersivereader folder, and paste the following code into it, replacing `{YOUR_SUBSCRIPTION_KEY}` and `{YOUR_ENDPOINT}` with your subscription key and endpoint, respectively.
 
     ```

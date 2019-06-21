@@ -119,11 +119,11 @@ You can use the Immersive Reader in your web application by using the Immersive 
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome) and browse to [portal.azure.com](https://portal.azure.com/) and sign in. Select `Create new resource` in the menu blade and select `AI + Machine Learning` in the `New` blade.
 
-    ![image](./media/CreateResource1.png)
+    ![image](./media/createresource-aimachinelearning.png)
 
 1. If you don't see the `Immersive Reader` service, click on `See More` to view the entire catalog of `Cognitive Services` APIs.
 
-    ![image](./media/CreateResource2.png)
+    ![image](./media/createresource-aimachinelearning-seemore.png)
 
 1. On the `Create` blade, provide the following information:
 

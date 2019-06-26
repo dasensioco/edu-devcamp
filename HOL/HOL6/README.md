@@ -27,7 +27,7 @@ In this lab, you will create an app using PowerApps.
 Microsoft PowerApps are a very fast way to create apps based on your data. The sample data contains a class schedule and the resulting app can be used to browse the classes.
 
 1. Open a InPrivate or Incognito browser window (`Ctrl + Shift + P` in Edge and Internet Explorer and Firefox or `Ctrl + Shift + N` in Google Chrome)
- and browse to [web.powerapps.com](https://web.powerapps.com/). Sign in and PowerApps Studio will load. On the home screen create a new app by selecting `Start from data`.
+ and browse to [make.powerapps.com](https://make.powerapps.com/). Sign in and PowerApps Studio will load. On the home screen create a new app by selecting `Start from data`.
 
     ![image](./media/2018-09-14-11-54-00.jpg)
 

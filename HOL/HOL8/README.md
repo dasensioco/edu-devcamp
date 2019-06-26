@@ -637,4 +637,12 @@ To create a manifest file that can be uploaded by the users:
 
 ---
 
+## Continue with lab 10
+
+You are now ready to start hands-on lab 10. [View HOL 10 instructions](../HOL10).
+
+[Back to top](#content)
+
+---
+
 Copyright 2018 Microsoft Corporation. All rights reserved. Except where otherwise noted, these materials are licensed under the terms of the MIT License. You may use them according to the license as is most appropriate for your project. The terms of this license can be found at https://opensource.org/licenses/MIT.

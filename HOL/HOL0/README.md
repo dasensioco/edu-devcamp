@@ -88,7 +88,7 @@ In this lab, you will set up an Office 365 Educational trial subscription, popul
 
     ![image](./media/ex1-sds-no-license.png)
 
-1. Go back to the [Office 365 Admin center](https://admin.microsoft.com/Adminportal/) and click `Users` > `Active users` in the menu and select your user account. In the row `Product licenses` click `Edit` and activate the `School Data Sync` license below `Office 365 A5 for faculty` and click `Save`.
+1. Go back to the [Office 365 Admin center](https://admin.microsoft.com/Adminportal/) and click `Users` > `Active users` in the menu and select your user account. Click `Licenses and Apps`, scroll down and activate the `School Data Sync` app and click `Save changes`.
 
     ![image](./media/ex1-sds-activate-license.png)
 

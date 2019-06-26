@@ -333,11 +333,11 @@ Now it is time to add your app as a tab in Microsoft Teams. Since some of the Gr
 
     ![image](./media/2018-08-29-13-08-00.jpg)
 
-1. In the `Roles` section click `Edit`.
+1. In the `Roles` section click `Manage roles`.
 
     ![image](./media/2018-09-11-08-29-00.jpg)
 
-1. Select `Global administrator` and click `Save`.
+1. Select `Global administrator` and click `Save changes`.
 
     ![image](./media/2018-09-11-09-00-00.jpg)
 
